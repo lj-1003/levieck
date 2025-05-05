@@ -8,23 +8,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
+		main{
+			height: 60vh;
+		}
 		button {
 			background-color: #00A651;
 			border-style: none;
 			font-size: 150%;
 			color: #FFFFFF;
+
+			line-height: 2.0;
+		}
+
+		button:hover {
+			transform: scale(1.1);
+			transition: transform .25s ease;
 		}
 		
 		#elc {
 			text-align: center;
 		}
-		
 		#elc button {background-color: #00A651; cursor: pointer;}
-		#fusion button {background-color: #f1b357; cursor: pointer;}
-		
+
 		#fusion {
 			text-align: center;
 		}
+		#fusion button {background-color: #f1b357; cursor: pointer;}
+
+		.github {
+			text-align: center;
+		}
+		.github button {background-color: #21409A; cursor: pointer;}
 		
     </style>
 </head>
@@ -49,19 +63,28 @@
 		
 	</nav>
 	<main>
+		<hr>
 		<div id="elc">
 			<a href="https://ljeck3.infprojects.fhsu.edu/final/final.html" target=_blank>
 				<button>Visit Eck Lawn Care</button>
 			</a>
-			<p>This was made as a class project, coded by myself. It is based on my lawn service I used to provide.<p>
+			<p>My final project from my first web dev class. Based on my former lawn business.<p>
 		</div>
-		<br><br>
-		<div id="fusion">
-			</a>
-			<a href="https://maizenews.com/" target=_blank>
-				<button>Visit Fusion</button>
-			</a>
-			<p>This is my high school's news magazine page. I didn't code it, but I was heavily involved in the redesign.<p>
+		<br>
+		
+		<br>
+		<div class="github">
+		</a>
+		<a href="https://github.com/lj-1003" target=_blank>
+			<button>Check out my GitHub!</button>
+		</a>
+		</div>
+		<br>
+		<div class="github">
+		</a>
+		<a href="https://github.com/ljeck3" target=_blank>
+			<button>Check out my student GitHub!</button>
+		</a>
 		</div>
 		
 	</main>

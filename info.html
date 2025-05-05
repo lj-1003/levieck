@@ -8,11 +8,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
+		main{
+			height: 60vh;
+		}
     	#info {
     		text-align: center;
-    		padding-left: 20px;
-    		padding-right: 20px;
+    		padding-left: 200px;
+    		padding-right: 200px;
     	}
+		form {
+			width: 400px;
+			margin: 0 auto;
+				}
+		label {
+			display: block;
+			 }
+		
+		input[type="textbox"],
+		input[type="email"],
+		input[type="tel"],
+			textarea {
+			display: block;
+			margin: 0 auto;
+			width: 80%;
+			font-family: Arial, sans-serif;
+			line-height: 1.5;
+			padding: 10px;
+				}
+
+	
+		input[type="submit"]{
+			width: 100px;
+			height: 37px;
+			background-color: #21409A;
+			color: #FFFFFF;
+			border: none;
+				}
+
+		input[type="submit"]:hover {
+			transform: scale(1.1);
+			transition: transform .25s ease;
+				}
+		.contact {
+			text-align: center;
+		}
     </style>
 </head>
 
@@ -38,15 +77,30 @@
 	<main>
 		<hr>
 		<div id="info">
-			<h1>Info</h1>
-			<h4>Levi Eck is a student studying web development at Fort Hays State University, with experience in graphic design.
-			</h4>
+			<h4>Levi Eck is a student studying web development at Fort Hays State University, with experience in graphic design.</h4>
+		</div>
+
+		<div class="contact">
 			<h1>View Resume</h1>
 			<a href="files/resume.pdf">Click Here</a>
-		
-			
-			
 		</div>
+
+		<!--
+		<div class="contact">
+			<h1>Contact</h1>
+			<form action="mailto:levijustin24@gmail.com" method="post" enctype="text/plain">
+				<label for="myFName">Name:</label>
+					<input type="textbox" id="myFName" name="myFName" required="required"><br>
+				<label for="myEmail">E-Mail:</label>
+					<input type="email" id="myEmail" name="myEmail" required="required"><br>
+		
+				<label for="myComments">What can I do for you?:</label>
+					<textarea id="myComments" name="myComments" required="required" rows="4" cols="30"></textarea><br>
+			
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		-->
 	</main>
 
 	<footer>
