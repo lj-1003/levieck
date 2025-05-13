@@ -132,7 +132,10 @@ footer a:visited {
 
 /* Phones */
 @media (max-width: 600px) {
-	
+	.logo {
+		width: auto;
+		height: 100px;
+	}
 }
 
 	
