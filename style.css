@@ -48,6 +48,11 @@ main {
 	padding-bottom: 20px;
 	font-family: helvetica;
 }
+
+button:hover {
+	transform: scale(1.1);
+	transition: transform .25s ease;
+}
 	
 #layout {
 	display: grid;
@@ -87,6 +92,48 @@ footer a:visited {
   color: #FFFFFF;
 }
 
+
+/* Desktops */
+@media (min-width: 1025px) {
+	#navigation button {
+		display: none;
+	}
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+	#navigation {
+		display: inline-block;
+	}
+
+	#navigation button {
+		display: block;
+		background-color: #21409A;
+		border-style: none;
+		font-size:100%;
+		color: #FFFFFF;
+		line-height: 2.0;
+		cursor: pointer;
+	}
+
+	#navigation .content {
+		display: none;
+	}
+
+	#navigation ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#navigation:hover .content {
+		display: block;
+	}
+}
+
+/* Phones */
+@media (max-width: 600px) {
+	
+}
 
 	
 
