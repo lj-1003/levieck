@@ -59,7 +59,7 @@ button:hover {
 	transition: transform .25s ease;
 }
 	
-#layout {
+#alert-box {
 	display: grid;
 	grid-template-columns: 40% 60%;
     gap: 7px;
@@ -67,7 +67,7 @@ button:hover {
     align-items: center;
 }
 	
-#layout h2 { 
+#alert-box h2 { 
 	background-color: #D3D3D3;
 	padding: 10px 10px 10px 10px;
 }
