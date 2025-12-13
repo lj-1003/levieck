@@ -1,0 +1,31 @@
+[
+  {
+  	"id": 4, 
+  	"image": "../images/matches.jpg",
+    "title": "Matches QR Code",
+    "description": "Working QR Code made out of ~2700 individually placed matches."
+  },
+  {
+  	"id": 1,
+  	"image": "../images/swim.png",
+    "title": "MSHS State Swim",
+    "description": "T-shirt design for state swim"
+  },
+  {
+  	"id": 4, 
+  	"image": "../images/xc.jpg",
+    "title": "MSHS State XC",
+    "description": "T-shirt design for state cross country"
+  },
+ {
+  	"id": 3,
+  	"image": "../images/fusion.jpg",
+    "title": "Fusion",
+    "description": "Logo for Maize newsmagazine, Fusion."
+  },{
+  	"id": 2,
+  	"image": "../images/elc.jpg",
+    "title": "Eck Lawn Care",
+    "description": "Logo for my lawn business."
+  }
+]

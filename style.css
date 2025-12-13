@@ -78,12 +78,21 @@ button:hover {
 	padding: 10px 10px 10px 10px;
 }
 
-/* Music Videos-----------------------*/
+/* Music Videos | Portfolio-----------------------*/
 .video-grid {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+}
+
+.design-item img {
+	height: auto;
+	width: 100%;
+	max-width: 600px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgb(206, 206, 206);
 }
 
 .video-grid iframe {

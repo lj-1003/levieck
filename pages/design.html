@@ -13,27 +13,6 @@
             width: 100%;
             padding: 0;
         }
-        
-        .video-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .video-grid img {
-            width: 100%;
-            border: none;
-            padding: 10px 10px 10px 10px;
-        }
-		.video-grid img:hover {
-			transform: scale(1.1);
-			transition: transform .25s ease;
-		}
-        .container {
-        	margin-right: auto;
-        	margin-left: auto;
-        	width: 80%;
-        }
     </style>
 </head>
 
@@ -61,26 +40,7 @@
 		</header>
 
 		<main>
-			<div class="container">
-				<div class="video-grid">
-					<!-- Video 1 -->
-					<img src="../images/xc.jpg" alt="XC Shirt">
-					<!-- Video 2 -->
-					<img src="../images/swim.png" alt="Swim Shirt">
-				</div>
-				<div class="video-grid">
-					<!-- Video 1 -->
-					<img src="../images/fusion.jpg" alt="Fusion NewsMag Logo">
-					<!-- Video 2 -->
-					<img src="../images/elc.jpg" alt="Eck Lawn Care Logo">
-				</div>
-					<div class="video-grid">
-					<!-- Video 1 -->
-					<!--<img src="images/book.png" alt="Book">-->
-					<!-- Video 2 -->
-					<!--<img src="images/album.png" alt="Album">-->
-				</div>
-			</div>
+			<div id="design-list" class="video-grid"></div>
 		</main>
 
 		<footer>
@@ -90,7 +50,7 @@
 			<a href="mailto:levijustin24@gmail.com">levijustin24@gmail.com</a><br>
 			<a href="https://www.linkedin.com/in/levi-eck03" target=_blank>Visit Levi's LinkedIN</a>
 		</footer>
-
+	<script src="../js/design.js"></script>
 	</body>
 
 </div>
