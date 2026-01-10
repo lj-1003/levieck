@@ -1,31 +1,51 @@
 [
   {
-  	"id": 4, 
-  	"image": "../images/matches.jpg",
+  	"id": 7, 
+  	"image": "../images/design/tmn_insta.png",
+    "title": "Tiger Media Network Instgram Stories",
+    "description": "Graphics I made for the Tiger Media Network Instagram Account.",
+    "link": ""
+  },
+  {
+  	"id": 6, 
+  	"image": "../images/design/matches.jpg",
     "title": "Matches QR Code",
-    "description": "Working QR Code made out of ~2700 individually placed matches."
+    "description": "Working QR Code made out of ~2700 individually placed matches (link is broken now).",
+    "link": ""
+  },
+  {
+  	"id": 5,
+  	"image": "../images/design/fusion_mag.jpeg",
+    "title": "Fusion: Volume 1, Issue 2",
+    "description": "Cover Design for Fusion NewsMag. Won KSPA All News Publication.",
+    "link": "https://maizenews.com/21408/fusion-print-edition/fusion-december-2021/"
+  },
+ {
+  	"id": 4,
+  	"image": "../images/design/fusion.jpg",
+    "title": "Fusion Logo",
+    "description": "Logo design for Fusion NewsMag.",
+    "link": "https://maizenews.com/21408/fusion-print-edition/fusion-december-2021/"
+  },
+  {
+  	"id": 3,
+  	"image": "../images/design/swim.png",
+    "title": "MSHS State Swim",
+    "description": "T-shirt design for state swim.",
+    "link": ""
+  },
+  {
+  	"id": 2, 
+  	"image": "../images/design/xc.jpg",
+    "title": "MSHS State XC",
+    "description": "T-shirt design for state cross country.",
+    "link": ""
   },
   {
   	"id": 1,
-  	"image": "../images/swim.png",
-    "title": "MSHS State Swim",
-    "description": "T-shirt design for state swim"
-  },
-  {
-  	"id": 4, 
-  	"image": "../images/xc.jpg",
-    "title": "MSHS State XC",
-    "description": "T-shirt design for state cross country"
-  },
- {
-  	"id": 3,
-  	"image": "../images/fusion.jpg",
-    "title": "Fusion",
-    "description": "Logo for Maize newsmagazine, Fusion."
-  },{
-  	"id": 2,
-  	"image": "../images/elc.jpg",
+  	"image": "../images/design/elc.jpg",
     "title": "Eck Lawn Care",
-    "description": "Logo for my lawn business."
+    "description": "Logo for my lawn business.",
+    "link": ""
   }
 ]

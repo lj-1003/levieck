@@ -43,6 +43,7 @@ function renderdesigns(designs) {
         <img src="${design.image}" alt="${design.title}">
         <h2>${design.title}</h2>
         <p>${design.description}</p>
+        <a href="${design.link}" target="_blank">${design.link}</a>
         `;
         container.appendChild(div);
     });
