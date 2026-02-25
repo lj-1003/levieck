@@ -1,11 +1,34 @@
 {
   "code" : [
-
+    {
+      "image": "../images/item-placeholder.jpg",
+      "title": "PAIRS TigerTales (under development)",
+      "description": "For my capstone project, I will be enhancing the user experience of a reading comprehension web app for K-12 students.",
+      "link": ""
+    },
+    {
+      "image": "../images/code/website.png",
+      "title": "levieck.com (This website!)",
+      "description": "My in-progress portfolio website built from the ground up with HTML, CSS, and JavaScript.",
+      "link": "https://levieck.com"
+    },
+    {
+      "image": "../images/code/rsvp.png",
+      "title": "Web RSVP Tool (Personal Project)",
+      "description": "An experimental RSVP solution powered by Google Firebase.",
+      "link": "https://github.com/lj-1003/web-rsvp"
+    },
+    {
+      "image": "../images/code/imessage.jpg",
+      "title": "iMessage Exporter",
+      "description": "An experimental Python project that exports iPhone messages to a text file.",
+      "link": "https://github.com/lj-1003/imessage-exporter"
+    }
   ],
   "design" : [
     {
       "image": "../images/design/tmn_insta.png",
-      "title": "Tiger Media Network Instgram Stories",
+      "title": "Tiger Media Network Instagram Stories",
       "description": "Graphics I made for the Tiger Media Network Instagram Account.",
       "link": ""
     },
@@ -37,12 +60,6 @@
       "image": "../images/design/xc.jpg",
       "title": "MSHS State XC",
       "description": "T-shirt design for state cross country.",
-      "link": ""
-    },
-    {
-      "image": "../images/design/elc.jpg",
-      "title": "Eck Lawn Care",
-      "description": "Logo for my lawn business.",
       "link": ""
     }
   ]

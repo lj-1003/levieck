@@ -23,6 +23,7 @@ function baseRender(dataCategory, webSection) {
         <h2>${item.title}</h2>
         <p>${item.description}</p>
         <a href="${item.link}" target="_blank">${item.link}</a>
+        <hr>
         `;
         container.appendChild(div);
     });
