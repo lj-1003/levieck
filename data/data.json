@@ -20,12 +20,24 @@
     },
     {
       "image": "../images/code/imessage.jpg",
-      "title": "iMessage Exporter",
+      "title": "iMessage Exporter (Personal Project)",
       "description": "An experimental Python project that exports iPhone messages to a text file.",
       "link": "https://github.com/lj-1003/imessage-exporter"
     }
   ],
   "design" : [
+    {
+      "image": "../images/design/tmn_break.gif",
+      "title": "Tiger Media Network Break Transition",
+      "description": "Animation for use during sporting events.",
+      "link": ""
+    },
+    {
+      "image": "../images/design/tmn_replay.gif",
+      "title": "Tiger Media Network Replay Wipe",
+      "description": "Animation for use during sporting events.",
+      "link": ""
+    },
     {
       "image": "../images/design/tmn_insta.png",
       "title": "Tiger Media Network Instagram Stories",
