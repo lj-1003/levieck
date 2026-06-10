@@ -1,6 +1,12 @@
 {
   "code" : [
     {
+      "image": "../images/code/dashboard.png",
+      "title": "Personal Link Dashboard",
+      "description": "Public version of the homepage originally created for FHSU Institute for New Media Studies. Customize for personal or organization use. Download on GitHub or view demo below.",
+      "link": "https://lj-1003.github.io/link-dashboard/"
+    },
+    {
       "image": "../images/item-placeholder.jpg",
       "title": "PAIRS TigerTales (under development)",
       "description": "For my capstone project, I will be enhancing the user experience of a reading comprehension web app for K-12 students.",
